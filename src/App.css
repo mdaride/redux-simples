@@ -1,6 +1,7 @@
+
 .App {  
   display: flex;
-  flex-direction: column;    
+  flex-direction: column; 
   text-align: center;
 }
 
@@ -8,6 +9,9 @@ h1 {
   font-weight: 200;
 }
 
-.linha {
-  display: flex;  
+.App .linha {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  align-self: stretch;
 }
