@@ -10,17 +10,14 @@ function getColor(props) {
 }
 
 export default props => {
-    return (
-        <div>
-            <div className={`Card ${getColor(props)}`}>
-                <div className="Header">
-                    <span className="Title">{props.title}</span>
-                </div>
-                <div className="Content">
-                    {props.children}
-                </div>
+    return (        
+        <div className={`Card ${getColor(props)}`}>
+            <div className="Header">
+                <span className="Title">{props.title}</span>
             </div>
-            
-        </div>
+            <div className="Content">
+                {props.children}
+            </div>
+        </div>                    
     )
 }

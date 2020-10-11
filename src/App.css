@@ -10,8 +10,5 @@ h1 {
 }
 
 .App .linha {
-  display: flex;
-  justify-content: center;
-  flex: 1;
-  align-self: stretch;
+  display: flex;  
 }
